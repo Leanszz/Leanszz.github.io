@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Leandro Andrade | Cybersecurity & Infraestrutura</title>
-<meta name="description" content="Portfólio de Leandro Andrade: estudante de Segurança Cibernética (FIAP) com experiência em suporte N3, infraestrutura corporativa, análise de logs e resposta a incidentes.">
+<meta name="description" content="Portfólio de Leandro Andrade: graduando em Segurança Cibernética (FIAP) com 2 anos em suporte N1/N2 e infraestrutura, com foco em SOC, detecção de ameaças e hardening.">
 <!-- Pré-visualização ao compartilhar no LinkedIn -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Leandro Andrade | Cybersecurity & Infraestrutura">
-<meta property="og:description" content="Estudante de Segurança Cibernética com experiência em suporte N3, análise de logs e incidentes em ambiente corporativo.">
+<meta property="og:description" content="Graduando em Segurança Cibernética, 2 anos em suporte N1/N2 e infraestrutura. Foco em SOC, detecção de ameaças e hardening.">
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -146,7 +146,7 @@ footer{border-top:1px solid var(--border);padding:1.25rem 0;display:flex;flex-wr
   <ul class="nav-links">
     <li><a href="#about">./sobre</a></li>
     <li><a href="#skills">./skills</a></li>
-    <li><a href="#projects">./projetos</a></li>
+    <li><a href="#projects">./labs</a></li>
     <li><a href="#experience">./experiencia</a></li>
     <li><a href="#education">./formacao</a></li>
     <li><a href="#contact">./contato</a></li>
@@ -162,15 +162,15 @@ footer{border-top:1px solid var(--border);padding:1.25rem 0;display:flex;flex-wr
       <div class="term-body">
         <div class="out"><span class="hl-g">root</span>@<span class="p-host">soc-workstation</span>:<span class="p-path">~</span>$ <span style="color:#e8e8e8">cat whoami.txt</span></div>
         <h1 class="hero-name">LEANDRO ANDRADE</h1>
-        <div class="hero-sub">Cybersecurity · Infraestrutura · Resposta a Incidentes</div>
-        <p class="hero-pitch">Estudante de Segurança Cibernética na FIAP, vindo de suporte técnico N3 em ambiente corporativo de grande porte. Uno a base de infraestrutura (Windows, Linux, redes, VMs) com análise de logs e tratamento de incidentes para atuar em SOC e monitoramento.</p>
+        <div class="hero-sub">Segurança da Informação · SOC / Blue Team · Infraestrutura</div>
+        <p class="hero-pitch">Graduando em Segurança Cibernética na FIAP, com 2 anos de experiência em suporte N1/N2 e infraestrutura corporativa (Windows, Linux, macOS, Microsoft 365 e Active Directory). Uno a prática operacional com formação em detecção de ameaças, análise de tráfego, vulnerabilidades e hardening.</p>
         <div class="info-grid">
           <div class="info-cell"><div class="info-label">Localização</div>São Paulo, BR</div>
-          <div class="info-cell"><div class="info-label">Foco</div>SOC · Blue Team · Infra</div>
+          <div class="info-cell"><div class="info-label">Busco</div>SOC · Pentest · Infra Segura</div>
           <div class="info-cell"><div class="info-label">Status</div><span class="dot"></span>&nbsp;Aberto a oportunidades</div>
         </div>
         <div class="cta-row">
-          <a class="btn" href="#projects">Ver destaques</a>
+          <a class="btn" href="#projects">Ver laboratórios</a>
           <a class="btn alt" href="#contact">Falar comigo</a>
         </div>
       </div>
@@ -180,12 +180,12 @@ footer{border-top:1px solid var(--border);padding:1.25rem 0;display:flex;flex-wr
   <section id="about">
     <div class="cmd-header"><span class="hl-g">$</span><span class="cmd-text">cat sobre.md</span><span class="cmd-comment"># sobre mim</span></div>
     <div class="term-win"><div class="term-body">
-      <p class="out white">Cursando <span class="hl-g">Segurança Cibernética</span> na FIAP, com experiência prática em ambientes da <span class="hl-c">Vivo Telefônica</span>: suporte avançado, <span class="hl-a">análise de incidentes</span> com identificação de causa raiz e monitoramento proativo para prevenir falhas.</p>
-      <p class="out white">Meu objetivo é migrar de suporte e infraestrutura para monitoramento, resposta a incidentes e proteção de ambientes críticos.</p>
+      <p class="out white">Atuei em <span class="hl-a">incidentes críticos</span>, <span class="hl-a">análise de causa raiz</span> e escalonamento estruturado conforme <span class="hl-c">ITIL e SLA</span>. Na <span class="hl-g">FIAP</span>, estudo monitoramento e detecção de ameaças (SOC, SIEM, IDS/IPS, EDR), threat intelligence com MISP, modelagem de ameaças (MITRE ATT&amp;CK, STRIDE, Cyber Kill Chain) e hardening.</p>
+      <p class="out white">Meu objetivo é unir a experiência operacional em TI à Segurança da Informação, em SOC, Pentest, Segurança de Infraestrutura ou Suporte N2/Sênior.</p>
       <ul class="bullets">
-        <li>Suporte N1/N2/N3 em Windows, macOS e Linux</li>
-        <li>Análise de logs e troubleshooting de incidentes complexos</li>
-        <li>Identificação de anomalias e causa raiz em infraestrutura</li>
+        <li>Suporte N1/N2 em Windows, Linux e macOS</li>
+        <li>Incidentes complexos, causa raiz e escalonamento para Redes e Desenvolvimento</li>
+        <li>Análise de tráfego e PCAP, detecção de C2 e exfiltração</li>
         <li>Documentação técnica e SOPs para melhoria contínua</li>
       </ul>
     </div></div>
@@ -193,64 +193,41 @@ footer{border-top:1px solid var(--border);padding:1.25rem 0;display:flex;flex-wr
 
   <section id="skills">
     <div class="cmd-header"><span class="hl-g">$</span><span class="cmd-text">ls -la skills/</span><span class="cmd-comment"># competências técnicas</span></div>
-
     <div class="term-win">
-      <div class="term-titlebar"><span class="hl-g">drwxr-xr-x &nbsp;seguranca_e_monitoramento/</span></div>
-      <table class="skill-table">
-        <thead><tr><th>Competência</th><th>Nível</th></tr></thead>
-        <tbody>
-          <tr><td>Análise de logs</td><td><span class="lvl"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span>Avançado</td></tr>
-          <tr><td>Troubleshooting de incidentes</td><td><span class="lvl"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span>Avançado</td></tr>
-          <tr><td>Monitoramento de ambiente</td><td><span class="lvl"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>Intermediário+</td></tr>
-          <tr><td>Wireshark / análise de tráfego</td><td><span class="lvl"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>Intermediário</td></tr>
-          <tr><td>Active Directory</td><td><span class="lvl"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>Intermediário</td></tr>
-        </tbody>
-      </table>
+      <div class="term-titlebar"><span class="hl-g">drwxr-xr-x &nbsp;soc_e_deteccao/</span></div>
+      <div class="term-body"><div class="tags"><span class="tag">Triagem de alertas</span><span class="tag">Resposta a incidentes</span><span class="tag">SIEM</span><span class="tag">EDR/XDR</span><span class="tag">SOAR</span><span class="tag">IDS/IPS</span><span class="tag">Wazuh</span><span class="tag">Snort</span><span class="tag">Suricata</span><span class="tag">Zeek</span><span class="tag">Sysmon</span><span class="tag">SIGMA</span><span class="tag">YARA</span><span class="tag">Threat Hunting</span><span class="tag">MISP / IOCs</span></div></div>
     </div>
-
     <div class="term-win">
-      <div class="term-titlebar"><span class="hl-c">drwxr-xr-x &nbsp;sistemas_e_infra/</span></div>
-      <table class="skill-table">
-        <thead><tr><th>Competência</th><th>Nível</th></tr></thead>
-        <tbody>
-          <tr><td>Windows (suporte N1/N2/N3)</td><td><span class="lvl"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span>Avançado</td></tr>
-          <tr><td>Máquinas virtuais (VMs)</td><td><span class="lvl"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span>Avançado</td></tr>
-          <tr><td>Linux / macOS</td><td><span class="lvl"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>Intermediário</td></tr>
-          <tr><td>Redes: TCP/IP, Cisco, Packet Tracer</td><td><span class="lvl"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>Intermediário</td></tr>
-          <tr><td>SAP, Office 365, Oracle</td><td><span class="lvl"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>Intermediário+</td></tr>
-          <tr><td>Automação de processos</td><td><span class="lvl"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>Intermediário</td></tr>
-        </tbody>
-      </table>
+      <div class="term-titlebar"><span class="hl-a">drwxr-xr-x &nbsp;vulnerabilidades_e_pentest/</span></div>
+      <div class="term-body"><div class="tags"><span class="tag">Nessus</span><span class="tag">OpenVAS</span><span class="tag">Acunetix</span><span class="tag">Burp Suite</span><span class="tag">Nmap</span><span class="tag">Wireshark</span><span class="tag">Scapy</span><span class="tag">DVWA</span><span class="tag">SQL Injection</span><span class="tag">XSS</span><span class="tag">IDOR</span><span class="tag">Buffer Overflow</span><span class="tag">Assembly x86</span><span class="tag">GDB</span></div></div>
     </div>
-
     <div class="term-win">
-      <div class="term-titlebar"><span class="hl-a">drwxr-xr-x &nbsp;ferramentas_e_metodologias/</span></div>
-      <div class="term-body"><div class="tags">
-        <span class="tag">ITIL</span><span class="tag">SOPs</span><span class="tag">Documentação técnica</span><span class="tag">Gestão de chamados / SLA</span><span class="tag">Frameworks</span><span class="tag">SIEMN</span><span class="tag">Helpdesk</span>
-      </div></div>
+      <div class="term-titlebar"><span class="hl-c">drwxr-xr-x &nbsp;redes_e_infraestrutura/</span></div>
+      <div class="term-body"><div class="tags"><span class="tag">TCP/IP</span><span class="tag">Modelo OSI</span><span class="tag">DNS</span><span class="tag">DHCP</span><span class="tag">VPN</span><span class="tag">Firewall</span><span class="tag">Proxy</span><span class="tag">SSH</span><span class="tag">TLS</span><span class="tag">Active Directory (GPO, LDAP, FSMO)</span><span class="tag">Entra ID · MFA · SSO</span><span class="tag">Microsoft 365</span><span class="tag">Windows Server</span><span class="tag">Hyper-V</span><span class="tag">VMware</span><span class="tag">Azure</span></div></div>
+    </div>
+    <div class="term-win">
+      <div class="term-titlebar"><span class="hl-g">drwxr-xr-x &nbsp;sistemas_e_automacao/</span></div>
+      <div class="term-body"><div class="tags"><span class="tag">Linux (Debian)</span><span class="tag">Windows</span><span class="tag">macOS</span><span class="tag">Python</span><span class="tag">Bash</span><span class="tag">PowerShell</span><span class="tag">Git / GitHub</span><span class="tag">Excel (VBA, Power Query)</span><span class="tag">Power BI</span></div></div>
+    </div>
+    <div class="term-win">
+      <div class="term-titlebar"><span class="hl-a">drwxr-xr-x &nbsp;frameworks_e_normas/</span></div>
+      <div class="term-body"><div class="tags"><span class="tag">MITRE ATT&amp;CK</span><span class="tag">Cyber Kill Chain</span><span class="tag">STRIDE</span><span class="tag">ISO/IEC 27005</span><span class="tag">CVSS / CVE</span><span class="tag">CIS Benchmark</span><span class="tag">Zero Trust</span><span class="tag">OWASP Top 10</span><span class="tag">LGPD</span><span class="tag">ITIL / SLA</span></div></div>
     </div>
   </section>
 
   <section id="projects">
-    <div class="cmd-header"><span class="hl-g">$</span><span class="cmd-text">ls projetos/</span><span class="cmd-comment"># destaques técnicos</span></div>
+    <div class="cmd-header"><span class="hl-g">$</span><span class="cmd-text">ls labs/</span><span class="cmd-comment"># estudos de caso e laboratórios (FIAP)</span></div>
     <div class="proj-grid">
-      <article class="proj">
-        <h3>Automação de rotinas</h3>
-        <p>Scripts para tarefas repetitivas em ambiente corporativo, reduzindo o tempo operacional da equipe.</p>
-        <div class="tags"><span class="tag">Automação</span><span class="tag">Windows</span></div>
-      </article>
-      <article class="proj">
-        <h3>Gestão de VMs e homologação</h3>
-        <p>Criação, otimização e monitoramento de VMs; homologação de softwares validando compatibilidade e segurança.</p>
-        <div class="tags"><span class="tag">VMs</span><span class="tag">Hardening</span></div>
-      </article>
-      <article class="proj">
-        <h3>SOPs e causa raiz</h3>
-        <p>Análise de incidentes até a causa raiz e documentação em SOPs para evitar reincidências.</p>
-        <div class="tags"><span class="tag">Incidentes</span><span class="tag">ITIL</span></div>
-      </article>
+      <article class="proj"><h3>Análise de tráfego e PCAP</h3><p>Captura no Wireshark com filtros, identificando requisições HTTP/DNS/TLS suspeitas, comunicação maliciosa e persistência.</p><div class="tags"><span class="tag">Wireshark</span><span class="tag">PCAP</span></div></article>
+      <article class="proj"><h3>Detecção de C2 e exfiltração</h3><p>Técnicas de evasão (tunelamento DNS/ICMP/SSH/HTTPS, Fast-Flux, DGA) e indicadores de detecção.</p><div class="tags"><span class="tag">Zeek</span><span class="tag">Suricata</span><span class="tag">JA3</span></div></article>
+      <article class="proj"><h3>IDS/IPS, NSM e SIEM</h3><p>Regras de Snort, Suricata e Zeek e arquitetura do Wazuh: endpoints, logs e resposta ativa.</p><div class="tags"><span class="tag">Wazuh</span><span class="tag">Snort</span></div></article>
+      <article class="proj"><h3>Gestão de vulnerabilidades</h3><p>Casos com Nessus (CVE-2021-21985), OpenVAS, Acunetix e Burp Suite (IDOR), tratando falsos positivos e priorizando por CVSS.</p><div class="tags"><span class="tag">Nessus</span><span class="tag">CVSS</span><span class="tag">OWASP</span></div></article>
+      <article class="proj"><h3>Modelagem de ameaças</h3><p>STRIDE com diagramas de fluxo, ransomware mapeado no MITRE ATT&amp;CK e Kill Chain, regras SIGMA e playbooks RE&amp;CT.</p><div class="tags"><span class="tag">STRIDE</span><span class="tag">ATT&amp;CK</span></div></article>
+      <article class="proj"><h3>Malware e ransomware</h3><p>Análise de LockBit 3.0, Agent Tesla e Emotet, com controles como AppLocker, WDAC, ASR e backups imutáveis.</p><div class="tags"><span class="tag">LOLBins</span><span class="tag">Persistência</span></div></article>
+      <article class="proj"><h3>Buffer overflow (vulnserver)</h3><p>Análise com debugger e Assembly x86 para obter reverse shell, seguindo metodologia estruturada.</p><div class="tags"><span class="tag">GDB</span><span class="tag">x86</span></div></article>
+      <article class="proj"><h3>Hardening e infraestrutura</h3><p>CIS Benchmark em Linux (SSH, Apache, NGINX); AD, GPOs, DNS, DHCP, Hyper-V, Entra ID e Azure; script Python de port scan.</p><div class="tags"><span class="tag">CIS</span><span class="tag">Python</span><span class="tag">AD</span></div></article>
     </div>
-    <!-- DICA: quando tiver labs no GitHub (ex.: análise de PCAP no Wireshark, home lab de AD), adicione mais <article class="proj"> aqui com link para o repositório. -->
+    <!-- DICA: para cada lab, publique um repositório com a documentação e coloque o link no card. -->
   </section>
 
   <section id="experience">
@@ -258,43 +235,15 @@ footer{border-top:1px solid var(--border);padding:1.25rem 0;display:flex;flex-wr
     <div class="term-win"><div class="term-body">
       <div class="exp">
         <div class="exp-period">Abr/2025 – Mar/2026</div>
-        <div>
-          <div class="exp-role">Analista de Suporte Pleno</div>
-          <div class="exp-co">Stefanini · Cliente Vivo Telefônica</div>
-          <ul>
-            <li>Suporte avançado em Windows, macOS e Linux</li>
-            <li>Tratamento de falhas sistêmicas em SAP, Office 365, Oracle e Cisco</li>
-            <li>Gestão de chamados com priorização por impacto e SLA</li>
-            <li>Diagnóstico e correção de incidentes complexos</li>
-            <li>Criação e manutenção de documentação técnica e SOPs</li>
-          </ul>
-        </div>
+        <div><div class="exp-role">Analista de Suporte Pleno</div><div class="exp-co">Stefanini</div><ul><li>Resolução de incidentes críticos envolvendo SAP, Microsoft 365, Oracle, Cisco e Windows</li><li>Gestão de chamados em helpdesk, priorizando por impacto no negócio e SLA</li><li>Diagnóstico de incidentes complexos, com causa raiz e correções definitivas</li><li>Documentação técnica e SOPs padronizados</li><li>Apoio ao treinamento de novos analistas</li></ul></div>
       </div>
       <div class="exp">
-        <div class="exp-period">Mar/2025 – Abr/2025</div>
-        <div>
-          <div class="exp-role">Analista de Suporte Sênior</div>
-          <div class="exp-co">JBI Serviços · Cliente Vivo Telefônica</div>
-          <ul>
-            <li>Homologação de softwares validando compatibilidade e segurança</li>
-            <li>Gestão e monitoramento de máquinas virtuais</li>
-            <li>Automações para tarefas repetitivas</li>
-            <li>Monitoramento proativo para prevenção de falhas</li>
-          </ul>
-        </div>
+        <div class="exp-period">Out/2024 – Abr/2025</div>
+        <div><div class="exp-role">Analista de Suporte Pleno</div><div class="exp-co">JBI Serviços</div><ul><li>Suporte avançado em Windows, macOS e Linux</li><li>Análise de incidentes complexos com escalonamento estruturado para Redes e Desenvolvimento</li><li>Instalação e configuração de sistemas operacionais e aplicações</li><li>Atuação conforme ITIL, cumprindo os SLAs</li></ul></div>
       </div>
       <div class="exp">
-        <div class="exp-period">Out/2024 – Mar/2025</div>
-        <div>
-          <div class="exp-role">Analista de Suporte Pleno</div>
-          <div class="exp-co">JBI Serviços · Cliente Vivo Telefônica</div>
-          <ul>
-            <li>Suporte avançado de hardware e software em ambiente crítico</li>
-            <li>Resolução de falhas sistêmicas complexas</li>
-            <li>Análise de incidentes com identificação de causa raiz</li>
-            <li>Treinamento de usuários para reduzir reincidências</li>
-          </ul>
-        </div>
+        <div class="exp-period">Set/2023 – Mar/2024</div>
+        <div><div class="exp-role">Analista de Logística Jr.</div><div class="exp-co">Fractalia Systems</div><ul><li>Gestão do estoque de TI, com inventário e controle de ativos</li><li>Coordenação de recebimento e entrega de equipamentos e controle de custos</li></ul></div>
       </div>
     </div></div>
   </section>
@@ -303,14 +252,19 @@ footer{border-top:1px solid var(--border);padding:1.25rem 0;display:flex;flex-wr
     <div class="cmd-header"><span class="hl-g">$</span><span class="cmd-text">cat formacao.json</span><span class="cmd-comment"># formação e cursos</span></div>
     <div class="term-win"><div class="term-body">
       <div class="out amber">## Formação acadêmica</div>
-      <p class="out white"><span class="hl-g">Segurança Cibernética</span> — FIAP<br><span style="color:var(--muted);font-size:12px">Fev/2026 – Jan/2028 (cursando)</span></p>
-      <div class="out cyan" style="margin-top:1.25rem">## Cursos complementares</div>
+      <p class="out white"><span class="hl-g">Graduação em Segurança Cibernética</span> — FIAP (EAD)<br><span style="color:var(--muted);font-size:12px">Fev/2026 – Fev/2028 (em andamento)</span></p>
+      <div class="out cyan" style="margin-top:1.25rem">## Cursos e certificações</div>
       <ul class="bullets">
-        <li>Administração de Active Directory (AD) — LinkedIn Learning</li>
-        <li>Cisco Prep 1, 2 e 3 — LinkedIn Learning</li>
+        <li>Introdução à Cibersegurança — Cisco Networking Academy</li>
+        <li>Redes Intermediário e Linux Intermediário — Alura</li>
         <li>Administração de Sistemas — LinkedIn Learning</li>
-        <li>SPA Windows e TS IT Remote ADS — LinkedIn Learning</li>
-        <li>Power BI e Excel Avançado — Udemy</li>
+        <li>Microsoft 365, Power BI Intermediário e Excel Avançado — Udemy</li>
+        <li>Excel Intermediário — Senai</li>
+      </ul>
+      <div class="out amber" style="margin-top:1.25rem">## Idiomas</div>
+      <ul class="bullets">
+        <li>Português: nativo</li>
+        <li>Inglês: técnico (leitura de documentação), conversação em andamento</li>
       </ul>
     </div></div>
   </section>
@@ -318,11 +272,11 @@ footer{border-top:1px solid var(--border);padding:1.25rem 0;display:flex;flex-wr
   <section id="contact">
     <div class="cmd-header"><span class="hl-g">$</span><span class="cmd-text">./contato.sh --open-channel</span><span class="cmd-comment"># vamos conversar</span></div>
     <div class="term-win"><div class="term-body">
-      <p class="out" style="margin-bottom:1.25rem"><span class="hl-g">CONNECTION ESTABLISHED</span><br>Aberto a vagas em Segurança da Informação, SOC, análise de incidentes e infraestrutura.</p>
+      <p class="out" style="margin-bottom:1.25rem"><span class="hl-g">CONNECTION ESTABLISHED</span><br>Aberto a vagas em SOC, Pentest, Segurança de Infraestrutura e Suporte Técnico N2/Sênior.</p>
       <div class="contact-grid">
         <a class="contact-item" href="mailto:leandrolele200705@gmail.com"><div class="contact-key">E-mail</div><div class="contact-val hl-g">leandrolele200705@gmail.com</div></a>
         <a class="contact-item" href="https://linkedin.com/in/leandro-andrade-ti" target="_blank" rel="noopener noreferrer"><div class="contact-key">LinkedIn</div><div class="contact-val hl-g">linkedin.com/in/leandro-andrade-ti</div></a>
-        <a class="contact-item" href="https://github.com/Leanszz" target="_blank" rel="noopener noreferrer"><div class="contact-key">GitHub</div><div class="contact-val hl-g">github.com/SEU-USUARIO</div></a>
+        <a class="contact-item" href="https://github.com/Leanszz" target="_blank" rel="noopener noreferrer"><div class="contact-key">GitHub</div><div class="contact-val hl-g">github.com/Leanszz</div></a>
         <a class="contact-item" href="tel:+5511940313917"><div class="contact-key">Telefone</div><div class="contact-val hl-g">(11) 94031-3917</div></a>
       </div>
     </div></div>
